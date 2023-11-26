@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #5c5e5d;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+    margin: 0px 10px;
+    /* font-weight: 500; */
+}
+
+a {
+    text-decoration: none;
+    color: #5c5e5d;
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+}
+
+.nav {
+    background: #fff;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #FF9333;
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.active {
+    color: #FF9333;
+}
+
+.apply-btn {
+    padding: 8px 25px;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: #FF9333;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.des-part {
+    background-image: url('./images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    padding: 10rem 10%;
+}
+
+.des {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.outline-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: .5s ease-in;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.outline-btn:hover {
+    background-color: #FF9333;
+    border: 2px solid #FF9333;
+}
+
+.home-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 50px 10%;
+    line-height: 1.5rem;
+}
+
+.about-title {
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #000;
+}
+
+.home-about img {
+    width: 100%;
+}
+
+.all-counts {
+    padding: 30px 15%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+}
+
+.counter {
+    font-size: 40px;
+    color: #FF9333;
+    font-weight: 900;
+}
+
+.students, .Courses, .trainers{
+    text-align: center;
+}
+
+.convince-part {
+    padding: 50px 10%;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.choose-us {
+    width: 350px;
+    background-color: #FF9333;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.choose-us p:nth-child(1) {
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.choose-us p:nth-child(2) {
+    padding-bottom: 20px;
+    line-height: 1.5rem;
+}
+
+.learn-more {
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    margin: 0px;
+}
