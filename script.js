@@ -40,3 +40,9 @@ document.addEventListener('scroll', () => {
         reset();
     }
 });
+
+function reset(){   
+    counters.forEach((counter) => {
+        counter.innerText = "0";
+    });
+};
