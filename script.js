@@ -30,3 +30,13 @@ const countUp = () => {
      });
 }
 
+document.addEventListener('scroll', () => {
+    const scrollPos = window.scrollY;
+    console.log(scrollPos);
+    if(scrollPos > 270 && !scrollStarted){
+        countUp();
+        scrollStarted = true;
+    }else if(scrollPos < 270 && scrollStarted) {
+        reset();
+    }
+});
